@@ -1,1 +1,22 @@
+#Teoretická/vyhledávací část
+
+! Úkoly jsou koncipovány, tak abyste odpovědi hledali a získali tak trochu přehled, nejedná se o vědomostní test. 
+Nalezené výsledky vkládejte do libovolného textového dokumentu do složky “Odpovědi”. 
+Zde netřeba uvádět postup, kde a jak jste informaci našli. 
+
+1.	Uveďte nukleotidovou sekvenci exonu 9 genu CFTR. (tip: hledejte “ensembl”)
+
+2.	Uveďte, jaké onemocnění způsobují patogenní mutace v genu CFTR a některé uveďte.
+
+3.	Uveďte, co znamená autosomálně recesivní přenašečtví.
+
+4.	Rozepiště, jak byste postupovali při vytváření SQL datábaze na Linux serveru, tak aby byla zajištěna integrita dat.
+
+5.	Uveďte, co znamená SQL Injection a jak se tomu vyvarovat.
+
+6.	Zjistěte, co znamená error: “Error in .local: Cannot allocate a new connection: 16 connections already opened” a napiště jak byste postupovali při jeho opravě.
+
+7.	Zjistěte, co znamená error: “Error in if: argument is of length zero” a napiště jak byste postupovali při jeho opravě.
+
+8.	Napište, proč se dělá Sekvenování nové generace (NGS)?
 
