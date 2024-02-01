@@ -1,0 +1,25 @@
+#Praktická část
+
+! Veškeré řešení – skripty/odpovědi/použité funkce dávejte do nové složky “Odpovědi”. 
+Př.: po první úloze tam uložte script .R/.py s kódem a textový soubor s výsledky.
+ 
+1.	Načtěte soubor Data/transfery.csv a vypracujte následující statistiky:
+A)	Dle věku matky “vek_mother”, ve věkových kategoriích viz tabulka, vytvořte tabulku úspěšnosti embryotransferu v procentech dle sloupce “clinical_gravidity”, kde 1 = transfer byl úspěšný a 0 = neúspěšný. Prázdné hodnoty do statistik nepočítejte.
+
+B)	Určete zda-li je věk matky statisticky významný na úspěch transferu.
+
+C)	Taktéž A-B proveďte i pro věk embrya “vek_embryo”. Pokud bylo embryo darované ”f_donor” = 1, takový transfer do statistiky nepočítejte.
+
+D)	Vytvořte tabulku s počty transferů dle použité genetické metody "genetic_method” viz tabulka. 
+
+E)	Určete statistickou významnost pohlaví embrya “sex” – XX/XY na úspěch klinické gravidity dle sloupce “clinical_gravidity”, kde 1 = transfer byl úspěšný a 0 = neúspěšný. Prázdné hodnoty do statistik nepočítejte.
+
+F)	Z výsledných tabulek z úkolu A a D vytvořte a uložte grafy ve formátu .png, kde na ose x bude první a na ose y druhý řádek tabulky.
+
+	BONUS) Vytvořte jednoduchou R shiny aplikaci, která udělá předchozí statistiky při spuštění a 				vykreslí tabulky nebo hodnoty, tak aby je uživatel viděl.
+
+2.	Vytvořte script, který bude vytvářet jednoduchý .docx dokument obsahující nadpis, tučným a zarovnaný na střed “Výsledný protokol genetického vyšetření”, a dále pak tabulku, která se vyplní dle tří vstupních argumentů následovně:
+
+Jméno a příjmení:	argument 1
+Rodné číslo:	argument 2
+Datum odběru:	argument 3
